@@ -1,0 +1,27 @@
+.star-rating-main {
+    /* color: white; */
+    background-color: azure;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media(max-width: 350px){
+    .star-rating-main {
+        width: 100vw;
+        /* margin: 0 auto; */
+    }
+}
+.active {
+    color: rgb(255, 230, 0);
+}
+
+.inactive{
+    color: black;
+}
+
+.star-ratings {
+    width: 100%;
+}

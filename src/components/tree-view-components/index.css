@@ -1,0 +1,26 @@
+.tree-view-components {
+    margin: 1rem;
+}
+.menu-preview {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+}
+.preview-section {
+    margin: 0 auto;
+}
+span {
+    cursor: pointer;
+}
+.main-menu {
+    margin: 1rem;
+}
+.main-main {
+    height: 100vh;
+    padding-top: 2rem;
+    width: fit-content;
+    background-color: rgb(26, 170, 98);
+    color: whitesmoke;
+    font-size: 1.5rem;
+}

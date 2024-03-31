@@ -1,0 +1,53 @@
+.qr-code-generator {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+.heading{
+    background-color: rgb(236, 236, 245);
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.qr-code-generator > h1 {
+    color: rgb(12, 7, 1);
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section > input {
+    padding: 0.5rem 1.2rem;
+    width: 250px;
+    line-height: 1.5;
+    font-stretch: 15px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.input-section > button {
+    padding: 0.8rem 1.2rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    border: none;
+    background-color: rgb(74, 128, 21);
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.input-section > button:hover {
+    background-color: rgb(84, 84, 189);
+    
+}
+.input-section > button:disabled {
+    cursor: not-allowed;
+}
+.qr-code__section {
+    text-align: center;
+}

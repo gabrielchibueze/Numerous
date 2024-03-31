@@ -1,0 +1,119 @@
+.paged-Products{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-section{
+    margin: 3rem 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem auto;
+
+}
+
+.welcome {
+    margin-bottom: 2rem;
+    color: rgb(247, 65, 20);
+    text-shadow: 0px 0px 5px;
+    box-shadow: 0px 5px 8px grey;
+    padding: 1rem 2rem;
+}
+
+.all-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    gap: 2rem
+}
+
+
+.product-title {
+    text-align: center;
+}
+
+.single-product {
+    width: 350px;
+    height: 450px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 0.5rem;
+    box-shadow: 0px 3px 8px rgb(190, 143, 152);
+}
+.product-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    margin: 0 auto;
+    box-shadow: 0px 3px 8px rgba(21, 95, 105, 0.74);
+}
+
+.sub-details{
+    font-weight: bold;
+}
+.sub-desc > p {
+    margin: 0.3rem;
+    line-height: 1.5;
+}
+.sub-desc {
+    margin: 0.5rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-self: left;
+    gap: 0rem;
+}
+
+.load-more_button {
+    margin: 2rem;
+}
+
+.load-more_button > button, .isDisabled >button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(21, 87, 87);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.load-more_button > button:hover, .isDisabled > button:hover{
+    background-color: rgb(47, 185, 109);
+    color: rgb(128, 80, 80);
+
+}
+
+@media(max-width: 820px){
+    .single-product {
+        /* width: 80vw; */
+        height: 510px;
+    }
+    .product-image {
+        /* width: 62vw; */
+        height: 300px;
+        border-radius: 0.5rem;
+        border: 1px solid grey;
+        margin: 0 auto;
+        box-shadow: 0px 3px 8px rgba(21, 95, 105, 0.74);
+    }
+}
+
+
+.isDisabled:disabled {
+    cursor:grab;
+}
+
+.reload-products{
+    background-color: rgb(2, 26, 26);
+    color: rgb(15, 15, 15);
+
+}

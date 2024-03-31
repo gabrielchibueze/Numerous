@@ -1,0 +1,24 @@
+.color-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@media(max-width: 350px){
+    .color-buttons{
+        flex-direction: column;
+    }
+}
+.color-buttons > button {
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.colors {
+    text-align: center;
+    margin-top: 30vh;
+}

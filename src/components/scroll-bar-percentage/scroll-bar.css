@@ -1,0 +1,47 @@
+.scroll-bar-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.scroll-bar-display-container {
+    background-color: rgb(64, 190, 6);
+    color: rgb(255, 252, 252);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+
+}
+
+.scroll-width {
+    height: 15px;
+    width: 100%;
+    background-color: rgb(228, 243, 15);
+}
+
+.current-percentage-width {
+    height: 15px;
+    width: 0%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(149, 14, 190);
+    justify-content: right;
+    color: white;
+    font-weight: bold;
+}
+
+.content-dispaly-contianer {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.current-percentage-width > p{
+    margin: 0px 0.5rem;
+}
