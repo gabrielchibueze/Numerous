@@ -10,12 +10,14 @@ import QRCode from "./components/generate-QR-code/qrCode.jsx";
 import LightModeDarkMode from "./components/light-dark-mode/lightDarkMode.jsx";
 import ScrollBar from "./components/scroll-bar-percentage/scroll-bar.jsx";
 import CustomTabs from "./components/Custom-tabs/custom-tab.jsx";
+import ModalTesting from "./components/modal-popup/modalTesting.jsx";
+import TestGitFinder from "./components/github-profile-finder/testGitFinder.jsx";
 import "./App.css"
 
 const App = ()=>{
   return (
   <div className="app-section">
-    <Accordion />
+    {/* <Accordion />
     <RandomColor />
     <StarRating numOfStars={5} />
     <SlidingImage url={"https://picsum.photos/v2/list?"} limit={10} />
@@ -25,7 +27,8 @@ const App = ()=>{
     <LightModeDarkMode />
     <ScrollBar url={"https://dummyjson.com/products?limit=100"} />
     <CustomTabs />
-
+    <ModalTesting /> */}
+    <TestGitFinder />
 
   </div>)
 }

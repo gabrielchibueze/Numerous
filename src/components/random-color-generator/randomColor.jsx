@@ -34,7 +34,7 @@ const RandomColor = () => {
         {
             background: color,
             height: "100vh",
-            minWidth: "565px",
+            // minWidth: "5px",
             paddingTop: "2rem",
             justifyContent: "center",
         }}>

@@ -7,11 +7,26 @@
     flex-direction: column;
 }
 .current-image {
-    min-width: 200px;
-    max-width: 550px;
-    height: 450px;
+    /* min-width: 200px; */
+    /* max-width: 550px; */
+    width: 400px;
+    height: 350px;
     border-radius: 0.5rem;
 
+}
+
+@media(max-width: 400px){
+    .current-image {
+        width: 350px;
+        height: 350px;
+    
+    }
+    .loaded-images {
+        width: 350px;
+        height: 300px;
+    }
+    
+    
 }
 .all-images {
     display: none;
@@ -24,7 +39,7 @@
     position: relative;
     min-width: 200px;
     max-width: 550px;
-    height: 450px;
+    height: 350px;
     box-shadow: 8px 5px 7px grey;
     border-radius: 0.5rem;
 

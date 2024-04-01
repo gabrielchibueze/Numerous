@@ -5,12 +5,12 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    /* width: fit-content; */
 }
 
 @media(max-width: 350px){
     .star-rating-main {
-        width: 100vw;
+        /* width: 100vw; */
         /* margin: 0 auto; */
     }
 }
