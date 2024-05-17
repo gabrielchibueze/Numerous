@@ -5,6 +5,7 @@ import contentTabs from "./tabs"
 import "./custom-tab.css"
 
 export default function CustomTabs() {
+    
     const [currentTabIndex, setCurrentTabIndex] = useState(0)
     
     function handleActivateTab (thisIndex){

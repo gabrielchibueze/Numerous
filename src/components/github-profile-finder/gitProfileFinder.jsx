@@ -40,9 +40,9 @@ export default function GitProfileFinder() {
         setCreatedAt(new Date(userData.created_at))
     }, [userData])
 
-    return <div className="main-section">
+    return <div className="git-finder_main-section">
 
-        <div className="search-section">
+        <div className="git-finder-search-section">
             <input type="text" name="username" onChange={(event) => handleUserInput(event)} value={username} placeholder="Enter Github username" />
             <button onClick={fetchGithubUser}>Search</button>
         </div>

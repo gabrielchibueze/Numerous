@@ -68,10 +68,10 @@ const Pagination = () => {
 
                                         <h2 className="product-title">{product.title}</h2>
                                         <img className="product-image" src={product.images[0]} alt={product.brand + "-" + product.category} />
-                                        <div className="sub-desc">
-                                            <p><span className="sub-details">Product description</span>: {product.description}</p>
-                                            <p><span className="sub-details">Brand:</span> {product.brand}</p>
-                                            <p><span className="sub-details">Price:</span> £{product.price}</p>
+                                        <div className="main-prod_sub-desc">
+                                            <p className="prod-desc"><span >Product description</span>: {product.description}</p>
+                                            <p className="prod-brand"><span>Brand:</span> {product.brand}</p>
+                                            <p className="prod-price"><span>Price:</span> £{product.price}</p>
                                         </div>
                                     </div>)
                             })

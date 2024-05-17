@@ -1,4 +1,4 @@
-const data = [
+const menuData = [
     {
         label: "Home",
         to: "/"
@@ -16,12 +16,12 @@ const data = [
                         to: "/location",
                         children: [
                             {
-                                label: "Grace",
-                                to: "/login",
+                                label: "Newcatle, UK",
+                                to: "/view location",
                             },
                             {
-                                label: "Gbariel",
-                                to: "/register",
+                                label: "Change Address",
+                                to: "/chnage-address",
                             }
                         ]
                     }
@@ -56,20 +56,20 @@ const data = [
                 to: "/security",
                 children: [
                     {
-                        label: "Login",
+                        label: "Change password",
                         to: "/login",
                     },
                     {
-                        label: "Register",
+                        label: "Authentication",
                         to: "/register",
                         children: [
                             {
-                                label: "Login",
-                                to: "/login",
+                                label: "Add MFA",
+                                to: "/add-mfa",
                             },
                             {
-                                label: "Register",
-                                to: "/register",
+                                label: "Remove MFA",
+                                to: "/remove-mfa",
                             }
                         ]
                     }
@@ -79,4 +79,4 @@ const data = [
     }
 ]
 
-export default data
+export default menuData

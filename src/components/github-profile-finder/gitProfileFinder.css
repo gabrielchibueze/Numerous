@@ -1,4 +1,4 @@
-.main-section {
+.git-finder_main-section {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -7,13 +7,14 @@
     gap: 3rem;
 }
 
-.search-section {
+.git-finder-search-section-modal {
     display: flex;
+    flex-direction: row;
 }
 
-.search-section>input {
+.git-finder-search-section>input {
     /* height: 5px; */
-    padding: 0.6rem;
+    padding: 0.65rem;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     outline: none;
@@ -21,8 +22,8 @@
 
 }
 
-.search-section>button {
-    padding: 0.5rem 2rem;
+.git-finder-search-section>button {
+    padding: 0.77rem 2rem;
     cursor: pointer;
     background-color: blue;
     border-bottom-right-radius: 0.5rem;
@@ -32,11 +33,11 @@
     border-left: none;
 }
 
-.search-section>button:hover {
+.git-finder-search-section>button:hover {
     background-color: rgb(2, 2, 88);
 }
 
-.search-section>input:focus {
+.git-finder-search-section>input:focus {
     outline: none;
     border: rgb(6, 94, 116) 2px solid;
     font-size: 0.88rem;

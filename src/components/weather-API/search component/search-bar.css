@@ -1,0 +1,25 @@
+.weather-search-bar {
+    display: flex;
+    margin: 0 auto;
+}
+
+.weather-search-bar> input {
+    width: 55vw;
+    height: 35px;
+    border: 1px solid purple;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+.weather-search-bar > button {
+    width: 100px;
+    padding: 1rem 0.5rem;
+    background-color: blueviolet;
+    border-radius: 0rem 1rem 1rem 0rem;
+    font-weight: bold;
+}
+
+.weather-search-bar > button:hover{
+    background-color: rgb(92, 51, 131);
+    color: whitesmoke;
+    cursor: pointer;
+}
